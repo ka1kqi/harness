@@ -1,0 +1,18 @@
+# Claude Code Harness Configuration
+# Copy this to your project root and customize.
+
+stack:
+  frontend: react          # react | next | vue | svelte | none
+  backend: fastapi         # fastapi | express | django | rails | none
+  test_runner: vitest      # vitest | jest | pytest | go test
+
+evaluator:
+  playwright: true         # Enable Playwright browser testing
+  api_tests: true          # Enable API endpoint testing
+  max_iterations: 5        # Max retries per sprint before moving on
+  pass_threshold: 7        # Score (out of 10) required to pass
+
+dev_server:
+  start_cmd: "npm run dev" # Command to start the dev server
+  port: 3000               # Dev server port
+  health_check: "http://localhost:3000"  # URL to verify server is up
