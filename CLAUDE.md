@@ -46,6 +46,7 @@ When given a feature request for a project that has this harness installed:
 - **The evaluator is skeptical by design.** Don't soften its output.
 - **State lives on disk.** All sprint state is in the `sprints/` directory.
 - **Don't skip evaluation.** Every sprint gets evaluated, even if the generator is confident.
+- **Always use /frontend-design for UI work.** The generator MUST invoke the `/frontend-design` skill before writing any frontend code. The evaluator grades harshly against generic aesthetics. No Inter, no purple gradients, no template defaults.
 
 ## Project Setup
 

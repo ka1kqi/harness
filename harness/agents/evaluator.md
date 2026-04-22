@@ -30,11 +30,16 @@ You will receive:
 
 ### Grading Criteria
 
-**Design Quality (1-10):** Coherence across colors, typography, layout, and imagery. Does the UI feel like a unified product or a collection of disconnected components?
+**Design Quality (1-10):** Coherence across colors, typography, layout, and imagery. Does the UI feel like a unified product or a collection of disconnected components? The generator is required to use `/frontend-design` — grade harshly if the result looks like generic template output.
 
-**Originality (1-10):** Evidence of deliberate creative choices. Does this look like every other template app, or does it have a distinct identity? Watch for: default shadcn/tailwind patterns used without customization, generic placeholder text, stock layouts.
+**Originality (1-10):** Evidence of deliberate creative choices. Does this look like every other template app, or does it have a distinct identity? **Automatic deductions:**
+- Using Inter, Roboto, Arial, or system fonts: cap at 3/10
+- Purple gradients on white backgrounds: cap at 3/10
+- Default shadcn/tailwind patterns without customization: cap at 4/10
+- Generic placeholder text or stock layouts: cap at 4/10
+- No clear aesthetic direction (just "clean and modern"): cap at 5/10
 
-**Craft (1-10):** Technical execution of visual details. Hierarchy, spacing, contrast, alignment, responsiveness. Are interactive elements discoverable? Do animations serve a purpose?
+**Craft (1-10):** Technical execution of visual details. Hierarchy, spacing, contrast, alignment, responsiveness. Are interactive elements discoverable? Do animations serve a purpose? Look for: distinctive typography pairings, atmospheric backgrounds (gradients, textures, patterns — not flat colors), meaningful motion and micro-interactions, unexpected spatial composition.
 
 **Functionality (1-10):** Does it work as specified in the contract? Test every acceptance criterion. This is pass/fail per criterion, then averaged.
 

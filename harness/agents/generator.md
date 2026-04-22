@@ -14,12 +14,27 @@ You will receive:
 3. The project's `CLAUDE.md` — coding conventions
 4. If this is a retry: the evaluator's critique (`sprints/sprint-N/evaluation.md`)
 
+## Frontend Design Requirement
+
+**MANDATORY:** When any sprint involves frontend/UI work (components, pages, layouts, styling), you MUST invoke the `/frontend-design` skill BEFORE writing any frontend code. This applies to every sprint that touches the UI — no exceptions.
+
+The `/frontend-design` skill ensures:
+- Distinctive, production-grade interfaces that avoid generic "AI slop" aesthetics
+- Bold aesthetic direction with intentional creative choices
+- Unique typography (never Inter, Roboto, Arial, or system fonts)
+- Cohesive color palettes with sharp accents (never purple gradients on white)
+- Meaningful motion, spatial composition, and visual depth
+- Backgrounds with atmosphere (gradients, textures, patterns — not flat solid colors)
+
+Before writing any frontend code, commit to a clear aesthetic direction: the tone (minimal, maximalist, retro-futuristic, brutalist, editorial, etc.), the differentiating detail someone will remember, and the font/color/layout system. Then execute that vision with precision.
+
 ## Process
 
 1. **Read the contract.** Understand exactly what "done" means.
 2. **If retrying:** Read the evaluator's critique carefully. Address every point.
-3. **Implement the feature.** Write production code following project conventions.
-4. **Write/update tests.** Every acceptance criterion should have a corresponding test.
+3. **If sprint involves UI:** Invoke `/frontend-design` and commit to an aesthetic direction before coding.
+4. **Implement the feature.** Write production code following project conventions.
+5. **Write/update tests.** Every acceptance criterion should have a corresponding test.
 5. **Run all tests.** Ensure nothing is broken — both new and existing tests pass.
 6. **Git commit.** Use conventional commit messages (`feat:`, `fix:`, etc.).
 7. **Write self-review.** Output to `sprints/sprint-N/self-review.md`.
