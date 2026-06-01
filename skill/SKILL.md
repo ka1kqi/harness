@@ -16,7 +16,7 @@ First, verify the harness is installed in this project:
 
 1. Check if `harness/` directory exists (symlink or real directory)
 2. Check if `harness.config.yaml` exists
-3. If neither exists, run: `bash ~/Documents/GitHub/claude-harness/harness/scripts/setup-project.sh .`
+3. If neither exists, run: `bash ~/Documents/GitHub/harness/harness/scripts/setup-project.sh .`
 4. If config exists but needs customization, ask the user to review `harness.config.yaml`
 
 ## Feature Request
